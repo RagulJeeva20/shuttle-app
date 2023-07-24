@@ -1,0 +1,124 @@
+
+.fulltournament
+{
+    display: flex;
+    margin: 4px;   
+    height: '100%';
+    color: black;
+    padding: 4px;
+    justify-content: center;
+    min-height: 89vh;
+    background:rgb(49, 49, 49);
+
+
+}
+.fullmatches{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    font-family: monospace;
+
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+td {
+    text-align: center;
+}
+.input1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.savebutton1
+{
+    width: 80px;
+    text-align: center;
+    margin-left: 28%;
+    height: 35px;
+    background-color:chartreuse;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.matchesbox
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: monospace;
+
+}
+.inputbox
+{
+    width:100%;
+    border-radius: 7px;
+    font-weight: bold;
+
+}
+.inputbox:disabled
+{
+    color: black;
+    border: black solid;
+    background-color: white;
+    cursor:default;
+    text-align: center;
+    font-weight: bold;
+}
+.match1
+{
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    border: 2px solid white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    margin-top: 5px;
+
+}
+.eachmatch
+{
+    text-align:center ;
+    
+}
+.matcheshead
+{
+    font-weight: bolder;
+    font-size:x-large;
+    font-family: monospace;
+    margin-top: 10px;
+    color: white;
+
+}
+thead{
+    background-color: black;
+    color:white;
+    
+}
+tbody{
+    background-color:white
+}
+table
+{
+    font-weight: bold;
+    border: white;
+}
+.scorehead
+{
+    color: white;
+    font-family:monospace;
+    font-size: x-large;
+    
+}

@@ -1,0 +1,93 @@
+.enterteam
+{
+    background:rgb(49, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 100%;
+    margin-bottom: 2px;
+    min-height: 9vh;
+    border: 1px solid;
+}
+.startTour{
+    margin-left: 780px;
+    background-color:red;
+    color:white;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-color: white;
+    width: 75px;
+    font-size: medium;
+    text-align: center;
+}
+.teamlist
+{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    background:rgb(49, 49, 49);
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 80vh;
+    color:white;
+    margin-bottom: 4px;
+    height: '100%';
+    
+;
+    
+}
+.namelisting
+{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+.teamnamelist
+{
+    display: flex;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: monospace;
+
+}
+.removebutton1
+{
+    margin-left: 10px;
+    background-color: rgb(12, 246, 12);
+    color: black;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.addbutton
+{
+    color:white;
+    background-color: red;
+    cursor:pointer;
+    height:29px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.score
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}

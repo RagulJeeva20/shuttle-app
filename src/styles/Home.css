@@ -1,0 +1,53 @@
+
+.home
+{
+    background:rgb(49, 49, 49);  
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 55vh;
+    margin-bottom: 4px;
+  
+}
+.selectgame
+{
+    color:black;
+    text-decoration: none;
+    background-color:#00FF00 ;
+    padding: 10px;
+    border-radius: 20px;
+    border:solid 2px white;
+    text-align: center;
+    font-weight: bolder;
+    /* \background-color: #cc0a5c; */
+    
+}
+
+.link
+{
+    text-decoration: none;
+}
+
+.homehead
+{
+    margin-left: 4px;
+    margin-right: 4px;
+    background:rgb(49, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    color: white;
+    padding-top: 150px;
+    letter-spacing: 1px;
+}
+.selectgametype
+{
+    font-family: monospace;
+    font-size: xx-large;
+    color:white;
+}

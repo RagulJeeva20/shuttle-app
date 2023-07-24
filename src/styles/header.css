@@ -1,0 +1,18 @@
+.header
+{
+    height: 8vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin: 4px;
+}
+.logo
+{
+    font-family:monospace;
+    color: whitesmoke;
+    margin-left: 18px;
+    font-size: large;
+    letter-spacing: 1px;
+    font-weight: bold; 
+
+}
